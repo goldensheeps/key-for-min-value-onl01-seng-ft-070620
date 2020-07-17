@@ -7,6 +7,7 @@ def key_for_min_value(my_hash)
       0
     elsif k < v 
       -1
-    elsif
+    elsif k > v 
+      1 
   end 
 end
