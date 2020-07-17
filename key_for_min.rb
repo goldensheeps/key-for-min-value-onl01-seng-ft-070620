@@ -4,10 +4,9 @@
 def key_for_min_value(my_hash)
   lowest = []
   my_hash.each do |k, v|
-    if lowest == []
-      lowest = [k, v]
-    elsif lowest[1] > v 
+    if lowest == [] || lowest[1] > v 
       lowest = [k, v]
     end
   end 
+  lowest[k]
 end
