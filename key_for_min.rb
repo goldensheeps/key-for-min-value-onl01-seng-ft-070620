@@ -6,6 +6,6 @@ def key_for_min_value(my_hash)
   my_hash.each do |k, v|
     if lowest == {}
       lowest = {k => v}
-    elsif lowest > 
+    elsif lowest  
   end 
 end
