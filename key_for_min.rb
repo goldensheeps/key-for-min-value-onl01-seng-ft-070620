@@ -3,6 +3,6 @@
 
 def key_for_min_value(my_hash)
   my_hash.collect do |k, v|
-    if 
+    if k == v
   end 
 end
